@@ -23,10 +23,22 @@ $f3->route('GET /personal', function() {
     echo $view->render('views/personal-info.html');
 });
 
-//Personal Info Page
+//Profile Page
 $f3->route('GET /profile', function() {
     $view = new Template();
     echo $view->render('views/profile.html');
+});
+
+//Interests Page
+$f3->route('GET /interests', function() {
+    $view = new Template();
+    echo $view->render('views/interests.html');
+});
+
+//Summary Page
+$f3->route('GET /interests', function() {
+    $view = new Template();
+    echo $view->render('views/summary.html');
 });
 
 
