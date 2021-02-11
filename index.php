@@ -36,7 +36,7 @@ $f3->route('GET /interests', function() {
 });
 
 //Summary Page
-$f3->route('GET /interests', function() {
+$f3->route('GET /summary', function() {
     $view = new Template();
     echo $view->render('views/summary.html');
 });
