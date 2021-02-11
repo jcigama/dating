@@ -11,9 +11,16 @@ require_once('vendor/autoload.php');
 $f3 = Base::instance();
 $f3->set('DEBUG', 3);
 
+//Home Page
 $f3->route('GET /', function() {
     $view = new Template();
     echo $view->render('views/home.html');
+});
+
+//Personal Info Page
+$f3->route('GET /personal', function() {
+    $view = new Template();
+    echo $view->render('views/personal-info.html');
 });
 
 
