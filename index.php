@@ -23,6 +23,12 @@ $f3->route('GET /personal', function() {
     echo $view->render('views/personal-info.html');
 });
 
+//Personal Info Page
+$f3->route('GET /profile', function() {
+    $view = new Template();
+    echo $view->render('views/profile.html');
+});
+
 
 //Run fat free
 $f3->run();
