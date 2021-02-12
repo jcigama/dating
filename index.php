@@ -1,3 +1,9 @@
+<!--
+    Name: Joseph Igama
+    Date: 02/11/2021
+    Purpose: A registration system that will setup a dating profile with details provided by the user
+-->
+
 <?php
 
 //Turn on error reporting -- this is critical!
